@@ -1,0 +1,96 @@
+outline_title
+Zerocodemy Git & GitHub (2 Weeks)
+________________________________________
+outline_intro
+This 2-week hands-on course introduces beginners to version control using Git and collaborative coding with GitHub. Designed for developers with little to no experience, each session builds foundational and practical knowledge for modern development workflows. By the end of the course, students will be comfortable initializing repositories, managing changes, and collaborating using GitHub.
+________________________________________
+outline
+Week 1
+
+Session 1: Introduction to Version Control and Git Basics
+Duration: 2 hours
+Objectives:
+•	Understand what version control is and why Git is important.
+•	Install Git and configure it for the first time.
+•	Learn basic Git commands and workflows.
+Topics:
+•	What is Version Control?
+•	Centralized vs. Distributed Version Control
+•	Installing Git on your system
+•	Setting up Git: git config
+•	Initializing a Git repository: git init
+•	Tracking changes with git add, git commit
+•	Checking status: git status
+•	Viewing history: git log
+•	Hands-on Practice: Creating and tracking a local project
+Assignment:
+1.	Install Git on your local machine.
+2.	Create a new folder called my-first-git-project.
+3.	Initialize it as a Git repository.
+4.	Create a file called hello.txt, add some text, and commit it.
+5.	Create at least 3 commits showing file updates.
+6.	Submit screenshots of git status, git log, and one commit message.
+
+Session 2: Working with Git Repositories and Branches
+Duration: 2 hours
+Objectives:
+•	Learn how to manage project history and use branches for development.
+•	Understand the concept of the staging area and commit cycle.
+Topics:
+•	Git workflow recap
+•	Exploring the working directory, staging area, and commit history
+•	Making changes and viewing diffs: git diff
+•	Undoing changes: git restore, git reset, git checkout
+•	Creating branches: git branch
+•	Switching branches: git checkout, git switch
+•	Merging branches: git merge
+•	Resolving merge conflicts
+•	Hands-on Practice: Branching and merging in a local repo
+Assignment:
+1.	Create a new branch named feature-update from your existing project.
+2.	Make a few changes to a file and commit them in the new branch.
+3.	Merge feature-update into your main branch.
+4.	Create a deliberate merge conflict and resolve it.
+5.	Submit screenshots showing the conflict, the resolution, and the successful merge.
+
+Week 2
+Session 3: Introduction to GitHub and Remote Repositories
+Duration: 2 hours
+Objectives:
+•	Learn how to connect a local Git repository to GitHub.
+•	Push and pull code between local and remote repositories.
+Topics:
+•	What is GitHub and why use it?
+•	Creating a GitHub account and repositories
+•	Connecting local repo to GitHub: git remote, git push
+•	Cloning repositories: git clone
+•	Pulling changes: git pull, git fetch
+•	Working with .gitignore
+•	Hands-on Practice: Pushing a local project to GitHub
+Assignment:
+1.	Create a GitHub repository named git-practice.
+2.	Connect your local my-first-git-project to this remote repository.
+3.	Push all your commits to GitHub.
+4.	Add a .gitignore file to exclude node_modules or .env (dummy files if needed).
+5.	Submit your GitHub repo link and a screenshot of the pushed commits.
+
+Session 4: Collaboration, Pull Requests, and Real-World Workflow
+Duration: 2 hours
+Objectives:
+•	Collaborate using GitHub with branches, pull requests, and issues.
+•	Understand team workflows and contribution guidelines.
+Topics:
+•	Forking repositories
+•	Pull requests and code reviews
+•	Understanding GitHub issues and project boards
+•	Best practices for commit messages and branching strategies
+•	GitHub README and license files
+•	Final Project: Collaborate on a mini project via GitHub
+•	Hands-on Practice: Fork, clone, make a pull request
+Assignment:
+1.	Fork a given repository (provided by the instructor or classmate).
+2.	Clone it to your local machine.
+3.	Create a new branch, make a meaningful change (e.g., update README, add a file), and push the branch.
+4.	Open a pull request with a proper title and description.
+5.	Submit the pull request link for review.
+
